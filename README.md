@@ -29,28 +29,27 @@ We Log to the console using console.log()
 
 ## Question 6
 
-\*\*Statistically typed
--Type checking is done at compile time
--If we try to change data type of an already declared variable by assigning a value of other data type into it, then we will get error
--If we try to change data type by redeclaring an already declared variable (int count) using other data type (boolean count) then also we will get error
+Statistically typed
+1.Type checking is done at compile time
+2.If we try to change data type of an already declared variable by assigning a value of other data type into it, then we will get error
+3.If we try to change data type by redeclaring an already declared variable (int count) using other data type (boolean count) then also we will get error
 Example : Java, C, C++, Go, Swift etc
 
-\*\*Dynamically typed
--Type checking is done at runtime.
--we can easily change data type of an already declared variable, by assigning a value of other data type into it, no error.
--we can easily change data type of an already declared variable, by redeclaring it using value of other data type, no error
+Dynamically typed
+1.Type checking is done at runtime.
+2.we can easily change data type of an already declared variable, by assigning a value of other data type into it, no error.
+3.we can easily change data type of an already declared variable, by redeclaring it using value of other data type, no error
 Example : Python, JavaScript, PHP, Ruby etc.
 
 ## Question 7
 
-\*\*Null
 Null means an empty or non-existent value. Null is assigned, and explicitly means nothing.
 
 var test1 = null;
 console.log(test1);
 // null
 
-\*\*Undefined
+Undefined
 Undefined means a variable has been declared, but the value of that variable has not yet been defined. For example:
 
 var test2;
